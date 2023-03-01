@@ -96,6 +96,57 @@ Como fazer:
 background: cor > url('Nome da pasta onde a imagem se encontra/nome da imagem.nome do tipo de 
 arquivo') > posição > repetição > attachment
 
+Ex prático:
+background: black url("img/wallpaper002.jpg") top center no-repeat fixed;
+
+Obs: Não tem como colocar na shorhand de background a propriedade "background-size", por isso será 
+necessário criar criar essa propriedade a parte
+
+10- Posicionamento:
+
+✦Explicação sobrea propriedade position: Em position: relative , o elemento é posicionado em relação a si 
+mesmo. Por outro lado, um elemento com position: absolute tem sua posição relacionada a de seu elemento 
+pai. Um elemento com position: absolute é removido do fluxo normal do documento(É preciso adicionar essa
+propriedade tanto no container(tag pai) quando no conteúdo(tah filho), no container usa-se o 
+position:relative, já no conteúdo usa-se position:absolute) (Caso não seja implementado a propriedade 
+position:relativa no container, o posicionamento ficará relativo ao tamanho da página e não sobre o 
+container) 
+
+✦Propriedade left e top: com elas você pode defenir onde você que posicionar seu elemento (elas só 
+funcionam caso seja usada com a propriedade position: absolute), você pode usar todas as unidades de 
+medidas, ex: px e % (porém ela levará em consideração para o posicionamento o canto superior esquerdo, 
+para alterar isso você precisará usar a propriedade "transform: translate()")
+
+✦Para que serve a propriedade transform: translate() > ela tem como finalidade alterar o ponto de 
+posicioanemto que será levado em consideração pelas propriedades: left e top, caso você utilize valores
+positivos ele se moverá para a direita e para negativos para a esquerda
+
+✦✦Ex prático:
+  <head>
+<style>
+      #container {
+        height: 500px;
+        background: red;
+        padding: 10px;
+        position: relative;
+      }
+
+      #conteudo {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        width: 100px;
+        height: 100px;
+        background: yellow;
+        transform: translate(-50%, -50%);
+      }
+    </style>
+  </head>
+  <body>
+    <main id="container">
+      <article id="conteudo"></article>
+    </main>
+  </body>
 
 
 
