@@ -73,24 +73,28 @@ body {
 
 
 
-
-
-
-
-
-
-
 <<Fim da Aula>>
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-► Aula:
+► Aula: Mudando o tamanho da imagem de fundo do site
+
+07- backgrounf-size:
+backgrounf-size: auto; > alinha aimagem automaticamnete
+backgrounf-size: contain; > faz com que imagem seja exibida por completo dada a sua proporção
+backgrounf-size: cover; > Ele irá cobrir todo o espaço possivel, mesmo que seja necessário cortar alguns 
+pedaços (ele não exibe 100% da imagem, caso não seja possível, mas sempre ocupará 100% vh)
+
+8- background-attachment 
+define se a imagem de fundo "rola" ou não com a tela;
+background-attachment: fixed;
+background-attachment: scroll;
 
 
-
-
-
-
+09- Shorhand background
+Como fazer: 
+background: cor > url('Nome da pasta onde a imagem se encontra/nome da imagem.nome do tipo de 
+arquivo') > posição > repetição > attachment
 
 
 
