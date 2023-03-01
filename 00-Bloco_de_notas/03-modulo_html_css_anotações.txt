@@ -1,13 +1,83 @@
-<<02-modulo_html_css>> <<Youtube: Curso em Vídeo>>
+<<03-modulo_html_css>> <<Youtube: Curso em Vídeo>>
 
 ✦Índice das Informações✦
 ▷
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-► Aula:
+► Aula: Colocando uma imagem de fundo no seu site
 
-01- 
+01- Como colocar uma imagem como imagem de fundo 
+[Para isso basta você utilizar a propriedade "background-image: url('Nome da pasta onde a imagem se 
+encontra/nome da imagem.nome do tipo de arquivo'), dentro da tag que deseja utilizar esta função(css)
+Ex:
+#q3 {
+        background-image: url("img/wallpaper001.jpg");
+      }
+]
+
+
+<<Fim da Aula>>
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+► Aula: Imagens que se repetem no fundo do site
+
+02- Como adiconar uma imagem da web como background
+[Para adiconar uma imagem como background que não esteja dentro do seu pc, basta colocar na url da 
+propriedade o link da imagem de um site 
+ex:
+body {
+        background-image: url("https://p2.trrsf.com/image/fget/cf/1200/1600/middle/images.terra.com/2022/10/04/overwatch-2-survey-asking-about-45-skins-not-indicative-of-f_4xhx-uveoy5srah5w.jpg");
+      }
+]
+
+03- A propriedade background-size do CSS especifica o tamanho das imagens de fundo
+
+04- A propriedade background-repeat é usada para definir como uma imagem de fundo se repete na tela
+background-repeat: repeat;
+background-repeat: no-repeat;
+background-repeat: repeat-x;
+background-repeat: repeat-y;
+
+
+<<Fim da Aula>>
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+► Aula: Configurando a posição da imagem no fundo do site 
+
+05- background-position:
+[Com esta propriedade podemos definir a posição na qual a imagem será inserida
+background-position: left top;
+background-position: left center;
+background-position: right bottom;
+background-position: center center;
+
+Ex:
+#b1 {
+        background-position: left top;
+      }
+]
+
+06- OBS:
+[Não esqueça de adaptar seu body caso vá utiliza-lo, por padrão ele possi height, a melhor forma de 
+adionar uma altura para o body é usando a medida "vh"
+Ex:
+body {
+        background-image: url("img/wallpaper003.jpg");
+        height: 98vh;
+        background-position: right bottom;
+      }
+]
+
+
+
+
+
+
+
+
 
 
 <<Fim da Aula>>
@@ -15,3 +85,46 @@
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 ► Aula:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
