@@ -154,16 +154,36 @@ positivos ele se moverá para a direita e para negativos para a esquerda
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-► Aula:
+► Aula: Ajustes no CSS do projeto
 
-11- 
+11- Font-variant 
+Com essa propriedade você pode alterar as variantes normal e small-caps
+font-variant: small-caps; > Ele coloca todas as letras em maiúsculo, sendo as verdadeiramente 
+maiúsculas um pouco maior
+
+12- text-transform:
+Esta propriedade destina-se a definir os efeitos de capitalização (maiúsculas, minúsculas) do texto
+text-transform: uppuppercase;
+text-transform: lowercase;
+
+13- line-height:
+permite controlar o espaçamento entre as linhas de um texto
+
+14- Como fazer para o tamanho das letras se sajudatrem ao tamanho da página
+Para isso basta utilizar a propriedade font-size: com a unidade de medida que leva em consideração o 
+tamanho da largura, no caso "vw"
+Ex:
+font-size: 10vw;
 
 
+<<Fim da Aula>>
 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
+► Aula: Imagens com efeito Parallax simples
 
-
-
+15- Pricípoal responsável por crari o efeito Parallax é a propriedade background-attachment: fixed; pois 
+ela irá fixar a imagem ao fundo 
 
 
 
