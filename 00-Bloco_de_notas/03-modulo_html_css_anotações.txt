@@ -79,10 +79,10 @@ body {
 
 ► Aula: Mudando o tamanho da imagem de fundo do site
 
-07- backgrounf-size:
-backgrounf-size: auto; > alinha aimagem automaticamnete
-backgrounf-size: contain; > faz com que imagem seja exibida por completo dada a sua proporção
-backgrounf-size: cover; > Ele irá cobrir todo o espaço possivel, mesmo que seja necessário cortar alguns 
+07- background-size:
+background-size: auto; > alinha aimagem automaticamnete
+background-size: contain; > faz com que imagem seja exibida por completo dada a sua proporção
+background-size: cover; > Ele irá cobrir todo o espaço possivel, mesmo que seja necessário cortar alguns 
 pedaços (ele não exibe 100% da imagem, caso não seja possível, mas sempre ocupará 100% vh)
 
 8- background-attachment 
@@ -185,6 +185,12 @@ font-size: 10vw;
 15- Pricípoal responsável por crari o efeito Parallax é a propriedade background-attachment: fixed; pois 
 ela irá fixar a imagem ao fundo 
 
+16- Arquivos de imagens adicoinadas com a tag "i" são considerados texto, por isso deve se utilizar tags
+para tal, para assim poder modifica-las 
+Ex:
+<i class="fa-brands fa-xbox" id="xbox">
+#xbox {
+  font-size: 5.1vw;
 
 
 
@@ -196,9 +202,28 @@ ela irá fixar a imagem ao fundo
 
 
 
-
-
-
+          <h2>Overwatch</h2>
+          <p>
+            Overwatch é um jogo de tiro em primeira pessoa multiplayer online,
+            desenvolvido pela
+            <a href="https://www.blizzard.com/pt-br/" target="_blank"
+              >Blizzard Entertainment</a
+            >. O jogo apresenta uma ampla variedade de personagens jogáveis,
+            cada um com habilidades e estilos de jogo únicos, que são divididos
+            em quatro categorias: ataque, defesa, tanque e suporte. Além do jogo
+            principal, Overwatch também apresenta eventos sazonais e conteúdo
+            adicional, como novos mapas e personagens, mantendo o jogo sempre
+            interessante e desafiador para os jogadores. Com uma comunidade de
+            fãs leais e uma jogabilidade viciante, Overwatch é um dos jogos mais
+            populares da atualidade.
+          </p>
+          <p>
+            o jogo se passa em um futuro próximo, onde a paz mundial foi
+            restaurada graças à criação de uma força-tarefa internacional
+            chamada Overwatch. No entanto, a organização foi dissolvida após um
+            incidente misterioso, e os personagens agora se encontram lutando em
+            conflitos por todo o mundo.
+          </p>
 
 
 
