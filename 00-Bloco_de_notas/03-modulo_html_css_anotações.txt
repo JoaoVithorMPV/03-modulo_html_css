@@ -192,43 +192,61 @@ Ex:
 #xbox {
   font-size: 5.1vw;
 
+17- Como definir dois valores de tamanho com medidas diferentes para uma mesma propriedade 
+[Para fazer isso você apenas precisará adicionar o max() ou min() e dentro dele determinar os valores que 
+deseja definir; muito útil quando você deseja difinir um valor de tamanho para algo em duas situações
+diferentes, ex: em uma tela grande você usa a unidade de medida "vw" para assim torna-lá mais responsíva, 
+porém esse mesmo valor não se adequará perfeitamente em uma tela pequena, mas com as propriedade max() você 
+pode definir míninmo para ser exibido
+Ex prático:
+font-size: max(150px, 5vw);
+Obs: quando a tela for muito grande o valor que ele utilizará será o com a unidade de "vw", pois por a tela 
+ser muito grande fará com que 5% da largura seja maior do a medidade de 150px, porém em telas menores a 
+unidade de medida em pixel será maior do que "vw" e por isso ela será adotada]
+[Conteúdo retirado de um vídeo a parte no YOUTUBE]
 
 
+<<Fim da Aula>>
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+► Aula: Sua primeira tabela em HTML
 
 
+18- tag <table> 
+é utilizada para criar elementos do tipo tabela em uma página HTML.
+
+19- tag <tr> (table row)
+define uma linha numa tabela
+
+20- tag <td> (Table Data)
+define cada uma das células da tabela. Estas tags devem sempre surgir dentro de tags TR 
+
+Ex com as 3 tags juntas:
+<table>
+      <tr>
+        <td>A1</td>
+        <td>A2</td>
+        <td>A3</td>
+        <td>A4</td>
+      </tr>
+</table>
+
+21- propriedade border-collapse
+elimina o espaço entre as células de forma que a as bordas em torno das células se fundam em uma só.
+border-collapse: collapse;
+border-collapse: separate;
 
 
+<<Fim da Aula>>
 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
+► Aula:
 
+22- 
 
-          <h2>Overwatch</h2>
-          <p>
-            Overwatch é um jogo de tiro em primeira pessoa multiplayer online,
-            desenvolvido pela
-            <a href="https://www.blizzard.com/pt-br/" target="_blank"
-              >Blizzard Entertainment</a
-            >. O jogo apresenta uma ampla variedade de personagens jogáveis,
-            cada um com habilidades e estilos de jogo únicos, que são divididos
-            em quatro categorias: ataque, defesa, tanque e suporte. Além do jogo
-            principal, Overwatch também apresenta eventos sazonais e conteúdo
-            adicional, como novos mapas e personagens, mantendo o jogo sempre
-            interessante e desafiador para os jogadores. Com uma comunidade de
-            fãs leais e uma jogabilidade viciante, Overwatch é um dos jogos mais
-            populares da atualidade.
-          </p>
-          <p>
-            o jogo se passa em um futuro próximo, onde a paz mundial foi
-            restaurada graças à criação de uma força-tarefa internacional
-            chamada Overwatch. No entanto, a organização foi dissolvida após um
-            incidente misterioso, e os personagens agora se encontram lutando em
-            conflitos por todo o mundo.
-          </p>
-
-
-oi
-
-
+         
 
 
 
