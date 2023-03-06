@@ -242,11 +242,141 @@ border-collapse: separate;
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
+► Aula: Alinhando o conteúdo em tabelas
+
+22- vertical-align
+alinhamento vertical de um elemento html, seja ele um texto, uma image, etc... essa propriedade é 
+principal usada com tabelas
+Ex:
+td {
+        border: 1px solid black;
+        padding: 10px;
+        text-align: center;
+        vertical-align: top;
+      }
+
+
+<<Fim da Aula>>
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+► Aula: Aprendendo a trabalhar com tabelas grandes
+
+23- Marcadores <TBODY></TBODY> <TFOOT></TFOOT> <THEAD></THEAD>
+Table Body  é o espaço onde são colocadas as linhas dos detalhes, 
+de dados, em uma tabela HTML, é indicação para o navegador que essas linhas aparecerão depois das células 
+contidas na tag <THEAD></THEAD> e antes das células contidas na tag <TFOOT></TFOOT>.
+
+24- <th>, <td>
+th define uma célula pro cabeçalho e rodapé do grupo de células de sua tabela, enquanto td defini células
+pro corpo da tabela
+
+
+<<Fim da Aula>>
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+► Aula: Caption e Escopo de títulos em tabelas
+
+25- <caption> 
+O elemento HTML caption especifica a legenda (ou título) de uma tabela.
+         
+26- scope="col" / scope="row"
+Assim, podemos indicar que cada cabeçalho é o título da coluna ( scope="col" ) ou da linha 
+( scope="row" ) em que estiver inserido
+Ex:
+ <tr>
+          <th scope="col">Estado</th>
+          <th scope="col" style="width: 50px">População</th>
+        </tr>
+
+<tr>
+          <th scope="row">Total de habitantes:</th>
+          <td class="num"><strong>999999</strong></td>
+        </tr>
+
+
+
+<<Fim da Aula>>
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+► Aula: Efeito Zebrado na tabela com HTML e CSS
+
+26- A pseudo-classe CSS :nth-child() 
+ele seleciona elementos com base em suas posições em um grupo de elementos irmãos.
+Ex:
+tbody tr:nth-child(2n) {
+        background-color: lightgray;
+      }
+Obs: o número posicionado antes da consoante "n" indicará a quantidade de casas que devem ser puladas antes
+das propriedades poderem ser aplicadas 
+
+
+tbody tr:nth-child(odd) {
+        background-color: rgb(211, 7, 7);
+      }
+
+Obs: odd significa impar e even é par, isso signica em quais elementos devem ser aplicados as propriedades
+
+
+<<Fim da Aula>>
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+► Aula: Cabeçalho fixo em tabelas grandes
+
+27- position: sticky 
+Ele pode ser entendido como uma mistura de position: relative e position: fixed . Ele se comporta até 
+certo ponto como position: relative , depois altera seu comportamento para position: fixed. Ele é usado
+principalmente com tabelas, pois ele permite que o seu cabeçalho acompanhe scroll do mouse até o fim da 
+tabela 
+Ex prático:
+thead > tr > th {
+        position: sticky;
+        top: -1px;
+        background-color: black;
+      }
+Obs: junto da propriedade "position: sticky;" é importante adiconar o "top", pois com base nele que 
+saberá onde deve se posicionar, e a cor de fundo deve ser a mesma que foi utilizada no Thead para manter
+uma coerência 
+
+
+<<Fim da Aula>>
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
 ► Aula:
 
-22- 
 
-         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
