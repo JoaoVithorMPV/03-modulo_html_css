@@ -346,19 +346,46 @@ uma coerência
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-► Aula:
+► Aula: Agrupando Colunas com colgroup
+
+28- <COLGROUP></COLGROUP> "Table Column Group Element" ou grupo de colunas de uma tabela HTML 
+é o marcador onde se coloca propriedades ou formatações que serão "herdadas" pelas colunas que 
+fazem parte daquele grupo de colunas. 
+Ex:
+<colgroup>
+        <col class="a" />
+        <col class="b" >
+        <col class="c" />
+        <col class="d" />
+      </colgroup>
+
+Obs: Você pode também fazer com que o valores definidos para uma coluna seja aplicada para mais de uma com
+o pseudo-classe CSS :nth-child() 
+Ex:
+<colgroup>
+        <col class="a" />
+        <col class="b" span="2" />
+        <col class="c" />
+        <col class="d" />
+      </colgroup>
 
 
 
+<<Fim da Aula>>
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+► Aula: Tabelas responsivas
+
+29- A propriedade overflow (CSS)
+Ela especifica quando o conteúdo de um elemento de nível de bloco deve ser cortado, exibido com barras de
+rolagem ou se transborda do elemento, muito útil na criação de uma tabela muito extensa; para usa-lá 
+basta envolver o conteúdo em uma subdivisão (Div, section...) e colocar a propriedade overflow:auto 
+na sua identificação na folha de estilo 
 
 
 
-
-
-
-
-
-
+<<FIM>>
 
 
 
